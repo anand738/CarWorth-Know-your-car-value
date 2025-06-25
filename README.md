@@ -4,6 +4,7 @@
 
 CarWorth: Price Prediction is a powerful tool designed to estimate car values based on various parameters such as brand, model, transmission, seats, and power (bhp). This project leverages advanced technology to provide accurate and real-time predictions, making it an essential resource for car buyers, sellers, and automotive enthusiasts.
 
+![Alt text](Overview.png "Overview Carworth")
 
 ## ✨ Features
 
