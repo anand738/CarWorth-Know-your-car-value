@@ -194,7 +194,7 @@ with st.form("car_details"):
         max_power = st.number_input("Max Power (bhp)", min_value=10.0, max_value=500.0, value=80.0, step=0.1, help="Enter the maximum power in brake horsepower (bhp).")
     
     # Submit button
-    submitted = st.form_submit_button("Predict Price", help="Click to predict the car price.")
+    submitted = st.form_submit_button("Estimate Price", help="Click to predict the car price.")
 
 # Handle form submission
 if submitted:
@@ -236,7 +236,7 @@ if submitted:
                 predicted_price = model.predict(input_transformed)[0]
             
             # Display result
-            st.success(f"### Predicted Price: ₹{predicted_price:,.2f}")
+            st.success(f"### Estimated Price: ₹{predicted_price:,.2f}")
             
         except ValueError as ve:
             st.error(f"Input error: {str(ve)}. Please ensure all inputs are valid.")
