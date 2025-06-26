@@ -44,7 +44,7 @@ Data Analytics: Incorporates real-time market data for enhanced accuracy.
 ## 🛠️ Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/anand738/CarWorth-Used-Car-Price-Prediction.git
+   git clone https://github.com/anand738/CarWorth-Know-your-car-value.git
 
 2. **Navigate to the project directory**:
    ```bash
